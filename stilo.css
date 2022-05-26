@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-color: rgb(247, 247, 247);
+}
+
+.titulo{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: rgb(65, 67, 68);
+    font-size: 35px;
+}
+
+.contenedor{
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    width: 48%;
+    height: 45px;
+    font-size: 25px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgba(0, 55, 255, 0.144);
+    padding: 0 5px;
+    transition: 0.2s;
+}
+input:hover{
+    font-size: 28px;
+    background-color: rgba(58, 60, 65, 0.397);
+    transition: 0.3s;
+}
+
+
+button{
+    width: 150px;
+    height: 45px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.btnbuscar{
+    cursor: pointer;
+    background-color: rgb(88, 223, 88);
+    border: none;
+    transition: 0.3s;
+}
+.btnbuscar:active{
+    background-color: rgb(17, 245, 17);
+    font-size: 25px;
+    transition: 0.2s;
+}
+
+.registrar{
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.615);
+    border: none;
+    transition: 0.3s;
+}
+.registrar:active{
+    background-color: rgb(49, 49, 235);
+    font-size: 25px;
+    transition: 0.2s;
+}
+
+.actualizar{
+    cursor: pointer;
+    background-color: rgb(216, 216, 86);
+    border: none;
+    transition: 0.3s;
+}
+.actualizar:active{
+    background-color: rgb(255, 255, 0);
+    font-size: 25px;
+    transition: 0.2s;
+}
+
+.eliminar{
+    cursor: pointer;
+    background-color: rgb(221, 71, 71);
+    border: none;
+    transition: 0.3s;
+}
+.eliminar:active{
+    background-color: rgb(255, 0, 0);
+    font-size: 25px;
+    transition: 0.2s;
+}
+
+
+#documento{
+    width: 38%;
+}
+
+.input{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.buscar{
+    width: 97%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.botones{
+    width: 97%;
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+}

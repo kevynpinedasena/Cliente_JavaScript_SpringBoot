@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stilo.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="titulo">
+        <h1>CONSUMO DE API EN SPRING BOOT</h1>
+    </div>
+    
+    <div class="contenedor">
+        <div class="buscar">
+            <input id="documento" type="text" placeholder="Documento" required>
+            <button class="btnbuscar" onclick="obtenerPersona()">Buscar</button>
+        </div>
+
+        <div class="input">
+            <input id="nombre" type="text" placeholder="Nombre">
+            <input id="telefono" type="text" placeholder="Telefono"> 
+            <input id="edad" type="text" placeholder="Edad">
+            <input id="profesion" type="text" placeholder="Profesion">
+            <input id="password" type="text" placeholder="Password">
+            <input id="tipo" type="text" placeholder="Tipo">
+        </div>
+
+        <div class="botones">
+            <button class="registrar" onclick="registrar()" >Registrar</button>
+            <button class="actualizar" onclick="actualizar()" >Actualizar</button>
+            <button class="eliminar" onclick="eliminar()" >Eliminar</button>
+        </div>
+    </div>
+    
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="cliente.js"></script>
+</body>
+</html>
