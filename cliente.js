@@ -40,13 +40,13 @@ function obtenerPersona() {
 
 function registrar(){
 
-    let documento=document.getElementById("documento").value;
-    let nombre=document.getElementById("nombre").value;
-    let telefono=document.getElementById("telefono").value;
-    let edad=document.getElementById("edad").value;
-    let profecion=document.getElementById("profesion").value;
-    let password=document.getElementById("password").value;
-    let tipo=document.getElementById("tipo").value;
+    let documento=document.getElementById("documento");
+    let nombre=document.getElementById("nombre");
+    let telefono=document.getElementById("telefono");
+    let edad=document.getElementById("edad");
+    let profecion=document.getElementById("profesion");
+    let password=document.getElementById("password");
+    let tipo=document.getElementById("tipo");
 
     if(documento=="" || edad=="" || nombre=="" || password=="" || profecion=="" || telefono=="" || tipo==""){
         Swal.fire({
